@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content1 {
+    background-image: url("backgroundheader.svg");
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  .nav {
+      background: none;
+     
+  }
+  .header {
+      padding: 50px;
+      margin-left: 20px;
+  }
+ .nametag {
+     font-family: monospace;
+     font-size: 50px;
+ }
+ .content2 {
+     padding: 40px;
+     margin: 20px;
+ }
+ .about {
+     border-bottom: 2px solid teal;
+ }
+ .content3 {
+     padding: 50px;
+ }
+ .profile {
+     font-size: 25px;
+     
+ }
+ 
+@media only screen and (max-width: 600px) 
+{
+    .profile {
+        position:relative;
+        left: 0;
+    }
+    .profile-picture {
+        font-size: 50px;
+    }
+  }
+  .content4 {
+      padding: 50px;
+      background-image: url("background3.svg");
+      background-size: cover;
+  }
+.content2 {
+    background-image: url("background2.svg");
+    background-size: cover;
+    margin: 0;
+}
+.profile-picture:hover {
+    box-shadow: 10px 10px 10px rgb(56, 216, 221);
+    transition: 0.85s;
+}
+.card-hover:hover {
+    box-shadow: 10px 10px 10px rgb(74, 219, 176);
+    transition: 0.50s;
+}
+.card-primary {
+    background: rgb(48, 119, 211);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-success {
+    background: rgb(44, 177, 62);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-danger {
+    background: rgb(231, 65, 65);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-warning {
+    background: rgb(216, 214, 69);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-dark {
+    background: rgb(68, 68, 70);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content5 {
+    background-image: url("background4.svg");
+    background-size: cover;
+    padding: 40px;
+}
+.content6 {
+    padding: 30px;
+}
+.center {
+    text-align: center;
+}
+.content7 {
+    padding: 30px;
+    background-image: url("background3.svg");
+    background-size: cover;
+}
+.label {
+    font-size: 25px;
+}
